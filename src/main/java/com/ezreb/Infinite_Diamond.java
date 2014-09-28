@@ -34,7 +34,7 @@ public class Infinite_Diamond
 			.setTextureName("infinitediamonds:superdiamond");
 //			.registerIcons(func_111206_d());
     		//.func_111206_d("infiniteDiamonds:superDiamond");
-    	GameRegistry.registerItem(item1, "superDiamondEzreb");
+    	GameRegistry.registerItem(item1, "super_diamond");
     	
     }
 
