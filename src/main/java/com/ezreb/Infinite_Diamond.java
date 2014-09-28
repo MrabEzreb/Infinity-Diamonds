@@ -13,7 +13,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @Mod(name = Infinite_Diamond.NAME, modid = Infinite_Diamond.MODID, version = Infinite_Diamond.VERSION)
 public class Infinite_Diamond
 {
-    public static final String MODID = "Infinite Diamonds";
+    public static final String MODID = "infinitediamonds";
     public static final String VERSION = "0.0.1";
     public static final String NAME = "Infinite Diamonds";
     
@@ -31,7 +31,8 @@ public class Infinite_Diamond
     		.setMaxStackSize(1)
 			.setCreativeTab(CreativeTabs.tabMaterials)
 			.setUnlocalizedName("superDiamond")
-			.setTextureName("infiniteDiamonds:superDiamond");
+			.setTextureName("infinitediamonds:superdiamond");
+//			.registerIcons(func_111206_d());
     		//.func_111206_d("infiniteDiamonds:superDiamond");
     	GameRegistry.registerItem(item1, "superDiamondEzreb");
     	

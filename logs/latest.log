@@ -1,10 +1,11 @@
-[10:11:06] [main/INFO]: Setting user: Player615
-[10:11:10] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:11:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinite Diamonds
-[10:11:18] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[10:11:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:11:23] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superDiamond.png
-java.io.FileNotFoundException: infinitediamonds:textures/items/superDiamond.png
+[14:47:59] [main/INFO]: Setting user: Player596
+[14:48:03] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:48:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinite Diamonds
+[14:48:11] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[14:48:14] [Sound Library Loader/INFO]: Sound engine started
+[14:48:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:48:16] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superdiamond.png
+java.io.FileNotFoundException: infinitediamonds:textures/items/superdiamond.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
@@ -27,12 +28,12 @@ java.io.FileNotFoundException: infinitediamonds:textures/items/superDiamond.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[10:11:23] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[10:11:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinite Diamonds
-[10:11:23] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[10:11:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:11:24] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superDiamond.png
-java.io.FileNotFoundException: infinitediamonds:textures/items/superDiamond.png
+[14:48:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:48:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinite Diamonds
+[14:48:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[14:48:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:48:17] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superdiamond.png
+java.io.FileNotFoundException: infinitediamonds:textures/items/superdiamond.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
@@ -58,27 +59,49 @@ java.io.FileNotFoundException: infinitediamonds:textures/items/superDiamond.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[10:11:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[10:11:39] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[10:11:39] [Server thread/INFO]: Generating keypair
-[10:11:42] [Server thread/INFO]: Preparing start region for level 0
-[10:11:43] [Server thread/INFO]: Preparing spawn area: 21%
-[10:11:44] [Server thread/INFO]: Preparing spawn area: 71%
-[10:11:45] [Server thread/INFO]: Changing view distance to 8, from 10
-[10:11:47] [Server thread/INFO]: Player615[local:E:e8f32e2c] logged in with entity id 432 at (-134.1293815581898, 66.0, 148.70677132084168)
-[10:11:47] [Server thread/INFO]: Player615 joined the game
-[10:11:57] [Server thread/INFO]: Player615 has just earned the achievement [Taking Inventory]
-[10:11:57] [Client thread/INFO]: [CHAT] Player615 has just earned the achievement [Taking Inventory]
-[10:12:04] [Server thread/INFO]: Saving and pausing game...
-[10:12:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:12:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:12:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:12:05] [Server thread/INFO]: Stopping server
-[10:12:05] [Server thread/INFO]: Saving players
-[10:12:05] [Server thread/INFO]: Saving worlds
-[10:12:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:12:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:12:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:12:07] [Sound Library Loader/INFO]: Sound engine started
-[10:12:07] [Sound Library Loader/INFO]: Sound engine started
-[10:12:10] [Client thread/INFO]: Stopping!
+[14:48:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:48:19] [Sound Library Loader/INFO]: Sound engine started
+[14:48:25] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:48:25] [Server thread/INFO]: Generating keypair
+[14:48:27] [Server thread/INFO]: Preparing start region for level 0
+[14:48:28] [Server thread/INFO]: Preparing spawn area: 1%
+[14:48:29] [Server thread/INFO]: Preparing spawn area: 21%
+[14:48:30] [Server thread/INFO]: Preparing spawn area: 50%
+[14:48:31] [Server thread/INFO]: Preparing spawn area: 74%
+[14:48:32] [Server thread/INFO]: Preparing spawn area: 95%
+[14:48:33] [Server thread/INFO]: Changing view distance to 8, from 10
+[14:48:38] [Server thread/INFO]: Stopping server
+[14:48:38] [Server thread/INFO]: Saving players
+[14:48:38] [Server thread/INFO]: Saving worlds
+[14:48:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:48:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:48:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:48:43] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:48:43] [Server thread/INFO]: Generating keypair
+[14:48:45] [Server thread/INFO]: Preparing start region for level 0
+[14:48:46] [Server thread/INFO]: Preparing spawn area: 6%
+[14:48:47] [Server thread/INFO]: Preparing spawn area: 21%
+[14:48:48] [Server thread/INFO]: Preparing spawn area: 40%
+[14:48:49] [Server thread/INFO]: Preparing spawn area: 56%
+[14:48:51] [Server thread/INFO]: Preparing spawn area: 73%
+[14:48:52] [Server thread/INFO]: Preparing spawn area: 86%
+[14:48:53] [Server thread/INFO]: Preparing spawn area: 90%
+[14:48:54] [Server thread/INFO]: Preparing spawn area: 97%
+[14:48:54] [Server thread/INFO]: Changing view distance to 8, from 10
+[14:48:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2113ms behind, skipping 42 tick(s)
+[14:48:57] [Server thread/INFO]: Player596[local:E:538ffe96] logged in with entity id 761 at (-148.5, 69.0, 226.5)
+[14:48:57] [Server thread/INFO]: Player596 joined the game
+[14:49:20] [Server thread/INFO]: Player596 has just earned the achievement [Taking Inventory]
+[14:49:21] [Client thread/INFO]: [CHAT] Player596 has just earned the achievement [Taking Inventory]
+[14:49:35] [Client thread/INFO]: Warning: Clientside chunk ticking took 224 ms
+[14:49:52] [Server thread/INFO]: Saving and pausing game...
+[14:49:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:49:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:49:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:49:54] [Server thread/INFO]: Stopping server
+[14:49:54] [Server thread/INFO]: Saving players
+[14:49:54] [Server thread/INFO]: Saving worlds
+[14:49:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:49:55] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:49:55] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:50:04] [Client thread/INFO]: Stopping!
