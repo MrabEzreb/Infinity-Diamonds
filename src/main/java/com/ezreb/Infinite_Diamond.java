@@ -20,6 +20,7 @@ public class Infinite_Diamond
     public static final String NAME = "Infinite Diamonds";
     
     public static Item item1;
+    public static Item item2;
     
     @Instance(value = MODID)
     public static Infinite_Diamond instance;
@@ -30,6 +31,7 @@ public class Infinite_Diamond
     @EventHandler
     public void preInit(FMLPreInitializationEvent preInitEvent) {
     	item1 = GameRegistry.registerItem(new SuperDiamond(), "super_diamond", MODID);
+    	item2 = GameRegistry.registerItem(new SuperDiamondShard(), "super_diamond_shard", MODID);
     	
     }
 
@@ -39,8 +41,9 @@ public class Infinite_Diamond
         System.out.println("You want diamonds? Fine, dupe them. Just be sure to have somthing to do!");
         ItemStack diamondBlock = new ItemStack(Blocks.diamond_block, 1);
         ItemStack superDia = new ItemStack(item1, 1);
+        ItemStack superDiaS = new ItemStack(item2, 
         GameRegistry.addShapelessRecipe(superDia, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock);
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.diamond_block, 9), superDia);
-        
+        GameRegistry.addSmelting(superDia, woolStackWhite, 0.1f);
     }
 }
