@@ -20,6 +20,15 @@ public class Infinite_Diamond
     public static final String NAME = "Infinite Diamonds";
     
     public static Item item1;
+    public static Item item2;
+    public static Item item3;
+    public static Item item4;
+    public static Item item5;
+    public static Item item6;
+    public static Item item7;
+    public static Item item8;
+    public static Item item9;
+    public static Item item10;
     
     @Instance(value = MODID)
     public static Infinite_Diamond instance;
@@ -30,6 +39,15 @@ public class Infinite_Diamond
     @EventHandler
     public void preInit(FMLPreInitializationEvent preInitEvent) {
     	item1 = GameRegistry.registerItem(new SuperDiamond(), "super_diamond", MODID);
+    	item2 = GameRegistry.registerItem(new SuperDiamondShard(1), "super_diamond_part", MODID);
+    	item3 = GameRegistry.registerItem(new SuperDiamondShard(2), "super_diamond_shard", MODID);
+    	item4 = GameRegistry.registerItem(new SuperDiamondShard(3), "super_diamond_chip", MODID);
+    	item5 = GameRegistry.registerItem(new SuperDiamondShard(4), "super_diamond_rchip", MODID);
+    	item6 = GameRegistry.registerItem(new SuperDiamondShard(5), "super_diamond_cchip", MODID);
+    	item7 = GameRegistry.registerItem(new SuperDiamondShard(6), "super_diamond_rshard", MODID);
+    	item8 = GameRegistry.registerItem(new SuperDiamondShard(7), "super_diamond_facet", MODID);
+    	item9 = GameRegistry.registerItem(new SuperDiamondShard(8), "super_diamond_dpart", MODID);
+    	item10 = GameRegistry.registerItem(new SuperDiamondShard(9), "super_diamond_rawd", MODID);
     	
     }
 
