@@ -2,6 +2,7 @@ package com.ezreb;
 
 //import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.Mod;
@@ -57,8 +58,37 @@ public class Infinite_Diamond
         System.out.println("You want diamonds? Fine, dupe them. Just be sure to have somthing to do!");
         ItemStack diamondBlock = new ItemStack(Blocks.diamond_block, 1);
         ItemStack superDia = new ItemStack(item1, 1);
+        ItemStack superDiaPart1 = new ItemStack(item2, 41);
+        ItemStack superDiaPart2 = new ItemStack(item2, 1);
+        ItemStack superDiaShard1 = new ItemStack(item3, 4);
+        ItemStack superDiaShard2 = new ItemStack(item3, 1);
+        ItemStack superDiaChip1 = new ItemStack(item4, 4);
+        ItemStack superDiaChip2 = new ItemStack(item4, 1);
+        ItemStack superDiaRChip1 = new ItemStack(item5, 1);
+        ItemStack superDiaRChip2 = new ItemStack(item5, 1);
+        ItemStack superDiaCChip1 = new ItemStack(item6, 1);
+        ItemStack superDiaCChip2 = new ItemStack(item6, 4);
+        ItemStack superDiaRShard1 = new ItemStack(item7, 1);
+        ItemStack superDiaRShard2 = new ItemStack(item7, 1);
+        ItemStack superDiaFacet1 = new ItemStack(item8, 2);
+        ItemStack superDiaFacet2 = new ItemStack(item8, 1);
+        ItemStack superDiaDPart1 = new ItemStack(item9, 1);
+        ItemStack superDiaDPart2 = new ItemStack(item9, 4);
+        ItemStack superDiaRDia1 = new ItemStack(item10, 1);
+        ItemStack superDiaRDia2 = new ItemStack(item10, 1);
+        ItemStack superDiaDia1 = new ItemStack(Items.diamond, 1);
         GameRegistry.addShapelessRecipe(superDia, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock);
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.diamond_block, 9), superDia);
+        GameRegistry.addSmelting(superDia, superDiaPart1, (float) 0.1);
+        GameRegistry.addSmelting(superDiaPart2, superDiaShard1, (float) 0.1);
+        GameRegistry.addSmelting(superDiaShard2, superDiaChip1, (float) 0.1);
+        GameRegistry.addSmelting(superDiaChip2, superDiaRChip1, (float) 0.1);
+        GameRegistry.addSmelting(superDiaRChip2, superDiaCChip1, (float) 0.1);
+        GameRegistry.addSmelting(superDiaCChip2, superDiaRShard1, (float) 0.1);
+        GameRegistry.addSmelting(superDiaRShard2, superDiaFacet1, (float) 0.1);
+        GameRegistry.addSmelting(superDiaFacet2, superDiaDPart1, (float) 0.1);
+        GameRegistry.addSmelting(superDiaDPart2, superDiaRDia1, (float) 0.1);
+        GameRegistry.addSmelting(superDiaRDia2, superDiaDia1, (float) 0.1);
         
     }
 }
