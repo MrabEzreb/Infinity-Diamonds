@@ -37,7 +37,7 @@ public class SuperDiamondShard extends Item {
 		this.setMaxStackSize(64)
 		.setCreativeTab(CreativeTabs.tabMaterials)
 		.setUnlocalizedName("superDiamond"+name)
-		.setTextureName("infinitediamonds"+":superdiamond");
+//		.setTextureName("infinitediamonds"+":superdiamond");
 //		registerIcons(func_111206_d());
 		//func_111206_d("infiniteDiamonds:superDiamond");
 		//setMaxStackSize(1);
