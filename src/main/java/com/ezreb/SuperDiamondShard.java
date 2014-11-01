@@ -5,7 +5,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class SuperDiamondShard extends Item {
-	SuperDiamondShard(int size) {
+	SuperDiamondShard(int size, CreativeTabs Tab) {
 		String name = null;
 		if (size==1) {
 			name = "part";
@@ -35,7 +35,7 @@ public class SuperDiamondShard extends Item {
 			name = "rdiamond";
 		}
 		this.setMaxStackSize(64)
-		.setCreativeTab(CreativeTabs.tabMaterials)
+		.setCreativeTab(Tab)
 		.setUnlocalizedName("superDiamond"+name)
 		.setTextureName("infinitediamonds"+":superdiamond");
 //		registerIcons(func_111206_d());

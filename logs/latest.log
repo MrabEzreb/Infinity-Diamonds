@@ -1,47 +1,11 @@
-[10:31:56] [main/INFO]: Setting user: Player700
-[10:32:04] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:32:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinity Diamonds LXXXII
-[10:32:33] [Sound Library Loader/INFO]: Sound engine started
-[10:33:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:33:18] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[10:33:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinity Diamonds LXXXII
-[10:33:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:33:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[10:33:21] [Sound Library Loader/INFO]: Sound engine started
-[10:33:40] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[10:33:40] [Server thread/INFO]: Generating keypair
-[10:33:43] [Server thread/INFO]: Preparing start region for level 0
-[10:33:44] [Server thread/INFO]: Preparing spawn area: 0%
-[10:33:45] [Server thread/INFO]: Preparing spawn area: 16%
-[10:33:46] [Server thread/INFO]: Preparing spawn area: 41%
-[10:33:47] [Server thread/INFO]: Preparing spawn area: 57%
-[10:33:48] [Server thread/INFO]: Preparing spawn area: 83%
-[10:33:50] [Server thread/INFO]: Changing view distance to 8, from 10
-[10:33:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4338ms behind, skipping 86 tick(s)
-[10:33:55] [Server thread/INFO]: Player700[local:E:8146e48a] logged in with entity id 379 at (-148.5, 69.0, 226.5)
-[10:33:55] [Server thread/INFO]: Player700 joined the game
-[10:34:09] [Server thread/INFO]: Saving and pausing game...
-[10:34:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:34:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:34:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:34:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4407ms behind, skipping 88 tick(s)
-[10:36:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3875ms behind, skipping 77 tick(s)
-[10:36:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2161ms behind, skipping 43 tick(s)
-[10:36:38] [Server thread/INFO]: Player700 has just earned the achievement [Taking Inventory]
-[10:36:38] [Client thread/INFO]: [CHAT] Player700 has just earned the achievement [Taking Inventory]
-[10:36:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3355ms behind, skipping 67 tick(s)
-[10:36:48] [Server thread/INFO]: Saving and pausing game...
-[10:36:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:36:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:36:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:37:07] [Server thread/INFO]: Changing view distance to 2, from 8
-[10:37:19] [Server thread/INFO]: Saving and pausing game...
-[10:37:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:37:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:37:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:37:21] [Server thread/INFO]: Stopping server
-[10:37:21] [Server thread/INFO]: Saving players
-[10:37:21] [Server thread/INFO]: Saving worlds
-[10:37:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:37:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:37:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:01:31] [main/INFO]: Setting user: Player928
+[13:01:34] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:01:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[13:01:43] [Sound Library Loader/INFO]: Sound engine started
+[13:01:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:01:48] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:01:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[13:01:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:01:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:01:50] [Sound Library Loader/INFO]: Sound engine started
+[13:02:09] [Client thread/INFO]: Stopping!
