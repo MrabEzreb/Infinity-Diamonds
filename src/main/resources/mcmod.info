@@ -2,7 +2,11 @@
 {
   "modid": "infinitediamonds",
   "name": "Infinity Diamonds LXXXII",
+<<<<<<< HEAD
   "description": "In the latest edition of Infinity Diamonds, the mod goes non-op. With critics considering it a questionable desicion, the creator, Mrab Ezreb, responded with this one statement: 81 diamonds + time = 82 diamonds",
+=======
+  "description": "NOTE: This mod is a WIP, not all textures are added quite yet. (By that I mean there is only one texture.) In the latest edition of Infinity Diamonds, the mod goes non-op. With critics considering it a questionable desicion, the creator, Mrab Ezreb, responded with this one statement: 81 diamonds + time = 82 diamonds",
+>>>>>>> fbabf6855f4c66b2a41c6e4bb1f194f2fc3ca075
   "version": "0.0.9",
   "mcversion": "1.7.10",
   "url": "",
