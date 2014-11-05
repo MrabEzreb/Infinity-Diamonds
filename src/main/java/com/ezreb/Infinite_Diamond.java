@@ -94,7 +94,7 @@ public class Infinite_Diamond
         GameRegistry.addSmelting(superDiaShard2, superDiaChip1, (float) 0.1);
         GameRegistry.addSmelting(superDiaChip2, superDiaRChip1, (float) 0.1);
         GameRegistry.addShapelessRecipe(superDiaCChip1, superDiaRChip2);
-        GameRegistry.addSmelting(superDiaCChip2, superDiaRShard1, (float) 0.1);
+        GameRegistry.addShapelessRecipe(superDiaRShard1, superDiaCChip1, superDiaCChip1, superDiaCChip1, superDiaCChip1);
         GameRegistry.addSmelting(superDiaRShard2, superDiaFacet1, (float) 0.1);
         GameRegistry.addSmelting(superDiaFacet2, superDiaDPart1, (float) 0.1);
         GameRegistry.addShapelessRecipe(superDiaRDia1, superDiaDPart2, superDiaDPart2, superDiaDPart2, superDiaDPart2);

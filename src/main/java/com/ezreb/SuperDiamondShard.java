@@ -9,9 +9,11 @@ public class SuperDiamondShard extends Item {
 		String name = null;
 		if (size==1) {
 			name = "part";
+			setTextureName("infinitediamonds"+":superdiamond_half");
 		}
 		if (size==2) {
 			name = "shard";
+			setTextureName("infinitediamonds"+":superdiamond_shard");
 		}
 		if (size==3) {
 			name = "chip";
