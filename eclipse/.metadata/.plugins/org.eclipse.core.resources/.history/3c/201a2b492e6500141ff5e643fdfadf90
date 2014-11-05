@@ -1,6 +1,7 @@
 package com.ezreb;
 
 //import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -12,12 +13,14 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 @Mod(name = Infinite_Diamond.NAME, modid = Infinite_Diamond.MODID, version = Infinite_Diamond.VERSION)
 public class Infinite_Diamond
 {
     public static final String MODID = "infinitediamonds";
-    public static final String VERSION = "0.0.5";
+    public static final String VERSION = "0.0.9";
     public static final String NAME = "Infinite Diamonds";
     
     public static Item item1;
@@ -39,16 +42,23 @@ public class Infinite_Diamond
     
     @EventHandler
     public void preInit(FMLPreInitializationEvent preInitEvent) {
-    	item1 = GameRegistry.registerItem(new SuperDiamond(), "super_diamond", MODID);
-    	item2 = GameRegistry.registerItem(new SuperDiamondShard(1), "super_diamond_part", MODID);
-    	item3 = GameRegistry.registerItem(new SuperDiamondShard(2), "super_diamond_shard", MODID);
-    	item4 = GameRegistry.registerItem(new SuperDiamondShard(3), "super_diamond_chip", MODID);
-    	item5 = GameRegistry.registerItem(new SuperDiamondShard(4), "super_diamond_rchip", MODID);
-    	item6 = GameRegistry.registerItem(new SuperDiamondShard(5), "super_diamond_cchip", MODID);
-    	item7 = GameRegistry.registerItem(new SuperDiamondShard(6), "super_diamond_rshard", MODID);
-    	item8 = GameRegistry.registerItem(new SuperDiamondShard(7), "super_diamond_facet", MODID);
-    	item9 = GameRegistry.registerItem(new SuperDiamondShard(8), "super_diamond_dpart", MODID);
-    	item10 = GameRegistry.registerItem(new SuperDiamondShard(9), "super_diamond_rawd", MODID);
+    	CreativeTabs infiniteDiamondLXXXIITab = new CreativeTabs("infiniteDiamondLXXXII") {
+    		@Override
+    		@SideOnly(Side.CLIENT)
+    		public Item getTabIconItem() {
+    			return item1;
+    		}
+    	};
+    	item1 = GameRegistry.registerItem(new SuperDiamond(infiniteDiamondLXXXIITab), "super_diamond", MODID);
+    	item2 = GameRegistry.registerItem(new SuperDiamondShard(1, infiniteDiamondLXXXIITab), "super_diamond_part", MODID);
+    	item3 = GameRegistry.registerItem(new SuperDiamondShard(2, infiniteDiamondLXXXIITab), "super_diamond_shard", MODID);
+    	item4 = GameRegistry.registerItem(new SuperDiamondShard(3, infiniteDiamondLXXXIITab), "super_diamond_chip", MODID);
+    	item5 = GameRegistry.registerItem(new SuperDiamondShard(4, infiniteDiamondLXXXIITab), "super_diamond_rchip", MODID);
+    	item6 = GameRegistry.registerItem(new SuperDiamondShard(5, infiniteDiamondLXXXIITab), "super_diamond_cchip", MODID);
+    	item7 = GameRegistry.registerItem(new SuperDiamondShard(6, infiniteDiamondLXXXIITab), "super_diamond_rshard", MODID);
+    	item8 = GameRegistry.registerItem(new SuperDiamondShard(7, infiniteDiamondLXXXIITab), "super_diamond_facet", MODID);
+    	item9 = GameRegistry.registerItem(new SuperDiamondShard(8, infiniteDiamondLXXXIITab), "super_diamond_dpart", MODID);
+    	item10 = GameRegistry.registerItem(new SuperDiamondShard(9, infiniteDiamondLXXXIITab), "super_diamond_rawd", MODID);
     	
     }
 
@@ -73,7 +83,7 @@ public class Infinite_Diamond
         ItemStack superDiaFacet1 = new ItemStack(item8, 2);
         ItemStack superDiaFacet2 = new ItemStack(item8, 1);
         ItemStack superDiaDPart1 = new ItemStack(item9, 1);
-        ItemStack superDiaDPart2 = new ItemStack(item9, 4);
+        ItemStack superDiaDPart2 = new ItemStack(item9, 1);
         ItemStack superDiaRDia1 = new ItemStack(item10, 1);
         ItemStack superDiaRDia2 = new ItemStack(item10, 1);
         ItemStack superDiaDia1 = new ItemStack(Items.diamond, 1);
@@ -84,10 +94,10 @@ public class Infinite_Diamond
         GameRegistry.addSmelting(superDiaShard2, superDiaChip1, (float) 0.1);
         GameRegistry.addSmelting(superDiaChip2, superDiaRChip1, (float) 0.1);
         GameRegistry.addShapelessRecipe(superDiaCChip1, superDiaRChip2);
-        GameRegistry.addSmelting(superDiaCChip2, superDiaRShard1, (float) 0.1);
+        GameRegistry.addShapelessRecipe(superDiaRShard1, superDiaCChip1, superDiaCChip1, superDiaCChip1, superDiaCChip1);
         GameRegistry.addSmelting(superDiaRShard2, superDiaFacet1, (float) 0.1);
         GameRegistry.addSmelting(superDiaFacet2, superDiaDPart1, (float) 0.1);
-        GameRegistry.addShapelessRecipe(superDiaRDia1, superDiaDPart2);
+        GameRegistry.addShapelessRecipe(superDiaRDia1, superDiaDPart2, superDiaDPart2, superDiaDPart2, superDiaDPart2);
         GameRegistry.addSmelting(superDiaRDia2, superDiaDia1, (float) 0.1);
         
     }

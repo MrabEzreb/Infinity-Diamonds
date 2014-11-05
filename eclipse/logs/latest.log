@@ -1,9 +1,9 @@
-[15:54:59] [main/INFO]: Setting user: Player695
-[15:55:00] [Client thread/INFO]: LWJGL Version: 2.9.1
-[15:55:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinity Diamonds LXXXII
-[15:55:06] [Sound Library Loader/INFO]: Sound engine started
-[15:55:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4104_superDiamonddpart.png
+[15:57:11] [main/INFO]: Setting user: Player412
+[15:57:12] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:57:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinity Diamonds LXXXII
+[15:57:19] [Sound Library Loader/INFO]: Sound engine started
+[15:57:21] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4104_superDiamonddpart.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4104_superDiamonddpart.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -28,7 +28,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4104_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4102_superDiamondrshard.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4102_superDiamondrshard.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4102_superDiamondrshard.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -53,7 +53,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4102_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superdiamond_shard.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superdiamond_shard.png
 java.io.FileNotFoundException: infinitediamonds:textures/items/superdiamond_shard.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -78,7 +78,7 @@ java.io.FileNotFoundException: infinitediamonds:textures/items/superdiamond_shar
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superdiamond_half.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superdiamond_half.png
 java.io.FileNotFoundException: infinitediamonds:textures/items/superdiamond_half.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -103,7 +103,7 @@ java.io.FileNotFoundException: infinitediamonds:textures/items/superdiamond_half
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4099_superDiamondchip.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4099_superDiamondchip.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4099_superDiamondchip.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -128,7 +128,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4099_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4103_superDiamondfacet.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4103_superDiamondfacet.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4103_superDiamondfacet.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -153,7 +153,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4103_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4100_superDiamondrchip.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4100_superDiamondrchip.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4100_superDiamondrchip.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -178,7 +178,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4100_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4101_superDiamondcchip.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4101_superDiamondcchip.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4101_superDiamondcchip.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -203,7 +203,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4101_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4105_superDiamondrdiamond.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4105_superDiamondrdiamond.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4105_superDiamondrdiamond.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -228,10 +228,10 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4105_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:55:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinity Diamonds LXXXII
-[15:55:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4104_superDiamonddpart.png
+[15:57:21] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:57:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinity Diamonds LXXXII
+[15:57:21] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4104_superDiamonddpart.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4104_superDiamonddpart.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -259,7 +259,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4104_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4102_superDiamondrshard.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4102_superDiamondrshard.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4102_superDiamondrshard.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -287,7 +287,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4102_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superdiamond_shard.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superdiamond_shard.png
 java.io.FileNotFoundException: infinitediamonds:textures/items/superdiamond_shard.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -315,7 +315,7 @@ java.io.FileNotFoundException: infinitediamonds:textures/items/superdiamond_shar
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superdiamond_half.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load infinitediamonds:textures/items/superdiamond_half.png
 java.io.FileNotFoundException: infinitediamonds:textures/items/superdiamond_half.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -343,7 +343,7 @@ java.io.FileNotFoundException: infinitediamonds:textures/items/superdiamond_half
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4099_superDiamondchip.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4099_superDiamondchip.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4099_superDiamondchip.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -371,7 +371,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4099_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4103_superDiamondfacet.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4103_superDiamondfacet.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4103_superDiamondfacet.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -399,7 +399,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4103_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4100_superDiamondrchip.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4100_superDiamondrchip.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4100_superDiamondrchip.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -427,7 +427,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4100_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4101_superDiamondcchip.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4101_superDiamondcchip.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4101_superDiamondcchip.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -455,7 +455,7 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4101_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4105_superDiamondrdiamond.png
+[15:57:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4105_superDiamondrdiamond.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4105_superDiamondrdiamond.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -483,6 +483,6 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4105_s
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[15:55:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:55:09] [Sound Library Loader/INFO]: Sound engine started
-[15:55:17] [Client thread/INFO]: Stopping!
+[15:57:21] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:57:22] [Sound Library Loader/INFO]: Sound engine started
+[15:57:31] [Client thread/INFO]: Stopping!

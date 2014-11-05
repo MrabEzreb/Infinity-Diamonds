@@ -20,7 +20,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class Infinite_Diamond
 {
     public static final String MODID = "infinitediamonds";
-    public static final String VERSION = "0.0.9";
+    public static final String VERSION = "0.1.1";
     public static final String NAME = "Infinite Diamonds";
     
     public static Item item1;
