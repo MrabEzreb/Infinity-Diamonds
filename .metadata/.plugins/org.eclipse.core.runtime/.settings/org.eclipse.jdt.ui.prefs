@@ -1,7 +1,9 @@
+CustomFiltersActionGroup.org.eclipse.jdt.ui.PackageExplorer.TAG_DUMMY_TO_TEST_EXISTENCE=storedViewPreferences
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
 fontPropagated=true
+lastRecentlyUsedFilters=org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter,org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter,org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter,
 org.eclipse.jdt.ui.editor.tab.width=
 org.eclipse.jdt.ui.formatterprofiles.version=12
 org.eclipse.jdt.ui.javadoclocations.migrated=true
