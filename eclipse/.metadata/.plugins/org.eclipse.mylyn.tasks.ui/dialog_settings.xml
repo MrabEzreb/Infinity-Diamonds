@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<section name="org.eclipse.mylyn.tasklist.ui.importWizard">
-		<item value="true" key="Import method backup"/>
-		<item value="Import Settings saved" key="Import Settings saved"/>
-		<item value="false" key="Import method zip"/>
-	</section>
-</section>

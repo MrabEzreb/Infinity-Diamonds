@@ -1,0 +1,7 @@
+package com.ezreb;
+
+import net.minecraft.item.Item;
+
+public class Tesseract extends Item {
+
+}

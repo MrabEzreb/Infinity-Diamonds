@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class SuperDiamond extends Item {
 	SuperDiamond(CreativeTabs Tab) {
-		this.setMaxStackSize(1)
+		this.setMaxStackSize(9)
 		.setCreativeTab(Tab)
 		.setUnlocalizedName("superDiamond")
 		.setTextureName("infinitediamonds"+":superdiamond");

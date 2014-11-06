@@ -1,0 +1,13 @@
+package com.ezreb;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class Tesseract extends Item {
+	Tesseract(CreativeTabs Tab) {
+		this.setMaxStackSize(1)
+		.setCreativeTab(Tab)
+		.setUnlocalizedName("tesseract")
+		.setTextureName("tesseract.png");
+	}
+}
