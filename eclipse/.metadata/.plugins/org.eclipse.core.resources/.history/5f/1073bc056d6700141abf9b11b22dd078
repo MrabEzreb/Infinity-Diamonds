@@ -1,0 +1,56 @@
+package com.ezreb;
+
+import net.minecraft.creativetab.CreativeTabs;
+//import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class SuperDiamondShard extends Item {
+	SuperDiamondShard(int size, CreativeTabs Tab) {
+		String name = null;
+		if (size==1) {
+			name = "part";
+			setTextureName("infinitediamonds"+":superdiamond_half");
+		}
+		if (size==2) {
+			name = "shard";
+			setTextureName("infinitediamonds"+":superdiamond_shard");
+		}
+		if (size==3) {
+			name = "chip";
+			setTextureName("infinitediamonds"+":superdiamond_chip");
+		}
+		if (size==4) {
+			name = "rchip";
+			setTextureName("infinitediamonds"+":superdiamond_rchip");
+		}
+		if (size==5) {
+			name = "cchip";
+			setTextureName("infinitediamonds"+":superdiamond_cchip");
+		}
+		if (size==6) {
+			name = "rshard";
+			setTextureName("infinitediamonds"+":superdiamond_rshard");
+		}
+		if (size==7) {
+			name = "facet";
+			setTextureName("infinitediamonds"+":superdiamond_facet");
+		}
+		if (size==8) {
+			name = "dpart";
+			setTextureName("infinitediamonds"+":superdiamond_dpart");
+		}
+		if (size==9) {
+			name = "rdiamond";
+		}
+		this.setMaxStackSize(64)
+		.setCreativeTab(Tab)
+		.setUnlocalizedName("superDiamond"+name);
+//		.setTextureName("infinitediamonds"+":superdiamond");
+//		registerIcons(func_111206_d());
+		//func_111206_d("infiniteDiamonds:superDiamond");
+		//setMaxStackSize(1);
+		//setCreativeTab(CreativeTabs.tabMaterials);
+		//setUnlocalizedName("superDiamond");
+		//setTextureName("infiniteDiamonds:superDiamond");
+	}
+}

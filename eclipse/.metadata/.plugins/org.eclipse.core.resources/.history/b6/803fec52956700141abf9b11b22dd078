@@ -1,0 +1,18 @@
+package com.ezreb;
+
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.common.config.*;
+
+public class Configger {
+	static boolean is4d;
+	static int SDTex;
+	public static Configuration preInitter(FMLPreInitializationEvent event) {
+		Configuration config = new Configuration(event.getSuggestedConfigurationFile());
+		config.load();
+		is4d = config.getBoolean("is4D", Configuration.CATEGORY_GENERAL, false, "Enables tesseracts that store 6.5k diamonds in one item.");
+		SDTex = config.getInt("Super Diamond Block Texture", Configuration.CATEGORY_GENERAL, 0, 0, 2, "Changes the texture of a Super Diamond Block. If 0, then the new texture. If 1, then the old texture. If 2, then both textures.");
+		config.setCategoryRequiresMcRestart(Configuration.CATEGORY_GENERAL, true);
+		config.save();
+		return config;
+	}
+}

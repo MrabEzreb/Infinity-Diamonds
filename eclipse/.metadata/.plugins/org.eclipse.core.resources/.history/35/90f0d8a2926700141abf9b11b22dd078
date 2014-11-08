@@ -1,0 +1,15 @@
+package com.ezreb;
+
+import java.util.List;
+
+import net.minecraft.client.gui.GuiScreen;
+import net.minecraftforge.common.config.ConfigElement;
+import net.minecraftforge.common.config.Configuration;
+import cpw.mods.fml.client.config.GuiConfig;
+import cpw.mods.fml.client.config.IConfigElement;
+
+public class IDConfigGUI extends GuiConfig {
+	public IDConfigGUI(GuiScreen parent) {
+		super(parent, new ConfigElement(Infinite_Diamond.cfg.getCategory(Configuration.CATEGORY_SPLITTER)).getChildElements(), "Infinite Diamonds LXXXII", false, false, GuiConfig.getAbridgedConfigPath(Infinite_Diamond.cfg.toString()));
+	}
+}

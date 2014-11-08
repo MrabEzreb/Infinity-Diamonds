@@ -1,0 +1,18 @@
+package com.ezreb;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+
+
+public class IDConfig {
+
+	public static void genConfig() {
+		// TODO Auto-generated method stub
+		File file = new File("Infinity Diamonds");
+		Configuration mainConfig = new Configuration(file);
+		mainConfig.
+	}
+
+}

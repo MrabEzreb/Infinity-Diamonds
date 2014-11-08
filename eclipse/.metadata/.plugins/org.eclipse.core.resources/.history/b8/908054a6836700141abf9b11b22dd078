@@ -1,0 +1,15 @@
+package com.ezreb;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class SuperDiamondBlock extends Block {
+	SuperDiamondBlock(CreativeTabs tab) {
+		super(Material.iron);
+		setHardness(25F).setStepSound(soundTypeMetal)
+		.setBlockName("SuperDiamondBlock").setCreativeTab(tab)
+		.setHarvestLevel("pickaxe", 3);
+		setBlockTextureName("infinitediamonds"+":super_diamond_block");
+	}
+}

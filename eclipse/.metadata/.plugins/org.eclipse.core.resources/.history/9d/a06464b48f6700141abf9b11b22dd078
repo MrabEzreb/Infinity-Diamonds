@@ -1,0 +1,47 @@
+package com.ezreb;
+
+import java.util.List;
+
+import net.minecraft.client.gui.GuiScreen;
+import cpw.mods.fml.client.config.GuiConfig;
+import cpw.mods.fml.client.config.IConfigElement;
+
+public class IDConfigGUI extends GuiConfig {
+
+	public IDConfigGUI(GuiScreen parentScreen,
+			List<IConfigElement> configElements, String modID,
+			boolean allRequireWorldRestart, boolean allRequireMcRestart,
+			String title) {
+		super(parentScreen, configElements, modID, allRequireWorldRestart,
+				allRequireMcRestart, title);
+		// TODO Auto-generated constructor stub
+	}
+
+	public IDConfigGUI(GuiScreen parentScreen,
+			List<IConfigElement> configElements, String modID, String configID,
+			boolean allRequireWorldRestart, boolean allRequireMcRestart,
+			String title) {
+		super(parentScreen, configElements, modID, configID,
+				allRequireWorldRestart, allRequireMcRestart, title);
+		// TODO Auto-generated constructor stub
+	}
+
+	public IDConfigGUI(GuiScreen parentScreen,
+			List<IConfigElement> configElements, String modID,
+			boolean allRequireWorldRestart, boolean allRequireMcRestart,
+			String title, String titleLine2) {
+		super(parentScreen, configElements, modID, allRequireWorldRestart,
+				allRequireMcRestart, title, titleLine2);
+		// TODO Auto-generated constructor stub
+	}
+
+	public IDConfigGUI(GuiScreen parentScreen,
+			List<IConfigElement> configElements, String modID, String configID,
+			boolean allRequireWorldRestart, boolean allRequireMcRestart,
+			String title, String titleLine2) {
+		super(parentScreen, configElements, modID, configID,
+				allRequireWorldRestart, allRequireMcRestart, title, titleLine2);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -17,24 +17,31 @@ public class SuperDiamondShard extends Item {
 		}
 		if (size==3) {
 			name = "chip";
+			setTextureName("infinitediamonds"+":superdiamond_chip");
 		}
 		if (size==4) {
 			name = "rchip";
+			setTextureName("infinitediamonds"+":superdiamond_rchip");
 		}
 		if (size==5) {
 			name = "cchip";
+			setTextureName("infinitediamonds"+":superdiamond_cchip");
 		}
 		if (size==6) {
 			name = "rshard";
+			setTextureName("infinitediamonds"+":superdiamond_rshard");
 		}
 		if (size==7) {
 			name = "facet";
+			setTextureName("infinitediamonds"+":superdiamond_facet");
 		}
 		if (size==8) {
 			name = "dpart";
+			setTextureName("infinitediamonds"+":superdiamond_dpart");
 		}
 		if (size==9) {
 			name = "rdiamond";
+			setTextureName("infinitediamonds"+":superdiamond_rdiamond");
 		}
 		this.setMaxStackSize(64)
 		.setCreativeTab(Tab)

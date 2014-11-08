@@ -1,12 +1,12 @@
 package com.ezreb;
 
-//import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.config.Configuration;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -21,9 +21,10 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class Infinite_Diamond
 {
     public static final String MODID = "infinitediamonds";
-    public static final String VERSION = "0.1.1";
+    public static final String VERSION = "0.4.2";
     public static final String NAME = "Infinite Diamonds";
     
+    public static Configuration cfg;
     public static Item item1;
     public static Item item2;
     public static Item item3;
@@ -36,6 +37,8 @@ public class Infinite_Diamond
     public static Item item10;
     public static Item tesser;
     public static Block SDBlock;
+    public static Block SDBlock2;
+
     
     @Instance(value = MODID)
     public static Infinite_Diamond instance;
@@ -45,6 +48,7 @@ public class Infinite_Diamond
     
     @EventHandler
     public void preInit(FMLPreInitializationEvent preInitEvent) {
+    	Configuration cfg = Configger.preInitter(preInitEvent);
     	CreativeTabs infiniteDiamondLXXXIITab = new CreativeTabs("infiniteDiamondLXXXII") {
     		@Override
     		@SideOnly(Side.CLIENT)
@@ -62,8 +66,19 @@ public class Infinite_Diamond
     	item8 = GameRegistry.registerItem(new SuperDiamondShard(7, infiniteDiamondLXXXIITab), "super_diamond_facet", MODID);
     	item9 = GameRegistry.registerItem(new SuperDiamondShard(8, infiniteDiamondLXXXIITab), "super_diamond_dpart", MODID);
     	item10 = GameRegistry.registerItem(new SuperDiamondShard(9, infiniteDiamondLXXXIITab), "super_diamond_rawd", MODID);
-    	tesser = GameRegistry.registerItem(new Tesseract(infiniteDiamondLXXXIITab), "Tesseract", MODID);
-    	SDBlock = GameRegistry.registerBlock(new SuperDiamondBlock(infiniteDiamondLXXXIITab), "SDBlock");
+    	if(Configger.is4d==true) {
+    		tesser = GameRegistry.registerItem(new Tesseract(infiniteDiamondLXXXIITab), "Tesseract", MODID);
+    	}
+    	if(Configger.SDTex==0) {
+    		SDBlock = GameRegistry.registerBlock(new SuperDiamondBlock(infiniteDiamondLXXXIITab, true), "SDBlock");
+    	}
+    	if(Configger.SDTex==1) {
+    		SDBlock = GameRegistry.registerBlock(new SuperDiamondBlock(infiniteDiamondLXXXIITab, false), "SDBlock2");
+    	}
+    	if(Configger.SDTex==2) {
+    		SDBlock = GameRegistry.registerBlock(new SuperDiamondBlock(infiniteDiamondLXXXIITab, true), "SDBlock");
+    		SDBlock2 = GameRegistry.registerBlock(new SuperDiamondBlock(infiniteDiamondLXXXIITab, false), "SDBlock2");
+    	}
     	
     }
 
@@ -73,6 +88,7 @@ public class Infinite_Diamond
         System.out.println("You want diamonds? Fine, dupe them. Just be sure to have somthing to do!");
         ItemStack diamondBlock = new ItemStack(Blocks.diamond_block, 1);
         ItemStack superDia = new ItemStack(item1, 1);
+        ItemStack superDia2 = new ItemStack(item1, 9);
         ItemStack superDiaPart1 = new ItemStack(item2, 41);
         ItemStack superDiaPart2 = new ItemStack(item2, 1);
         ItemStack superDiaShard1 = new ItemStack(item3, 4);
@@ -92,6 +108,13 @@ public class Infinite_Diamond
         ItemStack superDiaRDia1 = new ItemStack(item10, 1);
         ItemStack superDiaRDia2 = new ItemStack(item10, 1);
         ItemStack superDiaDia1 = new ItemStack(Items.diamond, 1);
+        ItemStack superDiaBlock = new ItemStack(SDBlock, 1);
+        ItemStack superDiaTesser = new ItemStack(tesser, 1);
+        ItemStack superDiaBlock2 = new ItemStack(SDBlock, 9);
+        ItemStack superDiaBlockOld = null;
+        if(Configger.SDTex==2) {
+        	superDiaBlockOld = new ItemStack(SDBlock2, 1);
+        }
         GameRegistry.addShapelessRecipe(superDia, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock, diamondBlock);
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.diamond_block, 9), superDia);
         GameRegistry.addSmelting(superDia, superDiaPart1, (float) 0.1);
@@ -104,6 +127,16 @@ public class Infinite_Diamond
         GameRegistry.addSmelting(superDiaFacet2, superDiaDPart1, (float) 0.1);
         GameRegistry.addShapelessRecipe(superDiaRDia1, superDiaDPart2, superDiaDPart2, superDiaDPart2, superDiaDPart2);
         GameRegistry.addSmelting(superDiaRDia2, superDiaDia1, (float) 0.1);
+        if(Configger.is4d) {
+        	GameRegistry.addShapelessRecipe(superDiaTesser, superDiaBlock, superDiaBlock, superDiaBlock, superDiaBlock, superDiaBlock, superDiaBlock, superDiaBlock, superDiaBlock, superDiaBlock);
+        	GameRegistry.addShapelessRecipe(superDiaBlock2, superDiaTesser);
+        }
+        GameRegistry.addShapelessRecipe(superDiaBlock, superDia, superDia, superDia, superDia, superDia, superDia, superDia, superDia, superDia);
+        GameRegistry.addShapelessRecipe(superDia2, superDiaBlock);
+        if(Configger.SDTex!=0) {
+        	GameRegistry.addShapelessRecipe(superDiaBlockOld, superDiaBlock);
+        	GameRegistry.addShapelessRecipe(superDiaBlock, superDiaBlockOld);
+        }
         
     }
 }

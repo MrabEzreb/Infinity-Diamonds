@@ -1,0 +1,30 @@
+package com.ezreb;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.ConfigCategory;
+import net.minecraftforge.common.config.ConfigElement;
+import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.common.config.Property;
+import net.minecraftforge.common.config.Property.Type;
+
+
+
+public class IDConfig {
+	static File file = new File("Infinity Diamonds");
+	public static ConfigCategory mainConfigCat = new ConfigCategory("Main");
+	public static Configuration mainConfig = new Configuration(file, Infinite_Diamond.MODID);
+	public static Type type = Type.BOOLEAN;
+	public static String name = "Enable_Tesseracts";
+	public static String value = "false";
+	public static Property useTesseracts = new Property(name, value, type);
+	
+	public static void genConfig() {
+		// TODO Auto-generated method stub
+		useTesseracts.setRequiresMcRestart(true);
+		mainConfigCat.put("Enable_Tesseracts", useTesseracts);
+		useTesseracts.comment = "Set to true if you want to put 6.5k diamonds into one item.";
+		mainConfig.save();
+	}
+
+}

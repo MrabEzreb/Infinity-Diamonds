@@ -1,0 +1,11 @@
+# Configuration file
+
+general {
+    # Changes the texture of a Super Diamond Block. If 0, then the new texture. If 1, then the old texture. If 2, then both textures. (Requires restart) [range: 0 ~ 2, default: 0]
+    I:"Super Diamond Block Texture"=2
+
+    # Enables tesseracts that store 6.5k diamonds in one item.(Requires restart) [default: false]
+    B:is4D=true
+}
+
+
