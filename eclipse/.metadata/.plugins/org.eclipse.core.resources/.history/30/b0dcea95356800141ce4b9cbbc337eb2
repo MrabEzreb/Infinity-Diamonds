@@ -1,0 +1,55 @@
+package com.ezreb;
+
+import java.util.List;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.audio.SoundList;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.DamageSource;
+import net.minecraft.world.Explosion;
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
+
+public class SuperDiamondBlock extends Block {
+	SuperDiamondBlock(CreativeTabs tab, boolean isNew) {
+		super(Material.iron);
+		setHardness(25F).setStepSound(soundTypeMetal)
+		.setBlockName("SuperDiamondBlock").setCreativeTab(tab)
+		.setHarvestLevel("pickaxe", 3);
+		String newIs = "";
+		if(isNew==true) {
+			newIs = "_new";
+		}
+		setBlockTextureName("infinitediamonds"+":super_diamond_block"+newIs);
+		setLightOpacity(5);
+	}
+	@Override
+	public boolean isBeaconBase(IBlockAccess worldObj, int x, int y, int z,
+			int beaconX, int beaconY, int beaconZ) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+	@Override
+	public void onBlockHarvested(World p_149681_1_, int p_149681_2_,
+			int p_149681_3_, int p_149681_4_, int p_149681_5_,
+			EntityPlayer p_149681_6_) {
+		// TODO Auto-generated method stub
+		super.onBlockHarvested(p_149681_1_, p_149681_2_, p_149681_3_, p_149681_4_,
+				p_149681_5_, p_149681_6_);
+		EntityPlayer play = p_149681_6_;
+		Potion.digSlowdown.performEffect(play, p_149681_5_);
+	}
+	@Override
+	public void onEntityCollidedWithBlock(World p_149670_1_, int p_149670_2_,
+			int p_149670_3_, int p_149670_4_, Entity p_149670_5_) {
+		// TODO Auto-generated method stub
+		super.onEntityCollidedWithBlock(p_149670_1_, p_149670_2_, p_149670_3_,
+				p_149670_4_, p_149670_5_);
+		p_149670_5_.attackEntityFrom(new DamageSource("Instant Suffocation"), 1000F);
+	}
+}

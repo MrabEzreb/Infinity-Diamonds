@@ -1,42 +1,11 @@
-[17:49:12] [main/INFO]: Setting user: Player482
-[17:49:15] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:49:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinity Diamonds LXXXII
-[17:49:29] [Sound Library Loader/INFO]: Sound engine started
-[17:49:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[17:49:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[17:49:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinity Diamonds LXXXII
-[17:49:40] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[17:49:41] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[17:49:41] [Sound Library Loader/INFO]: Sound engine started
-[17:49:53] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[17:49:53] [Server thread/INFO]: Generating keypair
-[17:49:55] [Server thread/INFO]: Preparing start region for level 0
-[17:49:56] [Server thread/INFO]: Preparing spawn area: 10%
-[17:49:57] [Server thread/INFO]: Preparing spawn area: 72%
-[17:49:58] [Server thread/INFO]: Changing view distance to 12, from 10
-[17:50:04] [Server thread/INFO]: Stopping server
-[17:50:04] [Server thread/INFO]: Saving players
-[17:50:04] [Server thread/INFO]: Saving worlds
-[17:50:04] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[17:50:04] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[17:50:04] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[17:50:05] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[17:50:05] [Server thread/INFO]: Generating keypair
-[17:50:06] [Server thread/INFO]: Preparing start region for level 0
-[17:50:07] [Server thread/INFO]: Preparing spawn area: 72%
-[17:50:07] [Server thread/INFO]: Changing view distance to 12, from 10
-[17:50:08] [Server thread/INFO]: Player482[local:E:6b517bfc] logged in with entity id 344 at (-53.5, 67.0, -220.5)
-[17:50:08] [Server thread/INFO]: Player482 joined the game
-[17:50:17] [Server thread/INFO]: Player482 has just earned the achievement [Taking Inventory]
-[17:50:17] [Client thread/INFO]: [CHAT] Player482 has just earned the achievement [Taking Inventory]
-[17:50:40] [Server thread/INFO]: Saving and pausing game...
-[17:50:40] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[17:50:40] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[17:50:40] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[17:51:22] [Server thread/INFO]: Stopping server
-[17:51:22] [Server thread/INFO]: Saving players
-[17:51:22] [Server thread/INFO]: Saving worlds
-[17:51:22] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[17:51:22] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[17:51:22] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[17:51:23] [Client thread/INFO]: Stopping!
+[13:57:22] [main/INFO]: Setting user: Player268
+[13:57:27] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:57:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinity Diamonds LXXXII
+[13:57:41] [Sound Library Loader/INFO]: Sound engine started
+[13:57:46] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:57:47] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:57:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Infinity Diamonds LXXXII
+[13:57:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:57:48] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:57:49] [Sound Library Loader/INFO]: Sound engine started
+[13:59:08] [Client thread/INFO]: Stopping!

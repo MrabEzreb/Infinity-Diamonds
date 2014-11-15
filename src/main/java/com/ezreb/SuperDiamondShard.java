@@ -1,12 +1,18 @@
 package com.ezreb;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
 //import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
 public class SuperDiamondShard extends Item {
 	SuperDiamondShard(int size, CreativeTabs Tab) {
 		String name = null;
+		this.setMaxStackSize(64);
+		int temperature = 0;
 		if (size==1) {
 			name = "part";
 			setTextureName("infinitediamonds"+":superdiamond_half");
@@ -26,6 +32,9 @@ public class SuperDiamondShard extends Item {
 		if (size==5) {
 			name = "cchip";
 			setTextureName("infinitediamonds"+":superdiamond_cchip");
+			setMaxStackSize(64);
+			temperature = 5000;
+			setMaxDamage(5000);
 		}
 		if (size==6) {
 			name = "rshard";
@@ -43,8 +52,7 @@ public class SuperDiamondShard extends Item {
 			name = "rdiamond";
 			setTextureName("infinitediamonds"+":superdiamond_rdiamond");
 		}
-		this.setMaxStackSize(64)
-		.setCreativeTab(Tab)
+		setCreativeTab(Tab)
 		.setUnlocalizedName("superDiamond"+name);
 //		.setTextureName("infinitediamonds"+":superdiamond");
 //		registerIcons(func_111206_d());
@@ -53,5 +61,36 @@ public class SuperDiamondShard extends Item {
 		//setCreativeTab(CreativeTabs.tabMaterials);
 		//setUnlocalizedName("superDiamond");
 		//setTextureName("infiniteDiamonds:superDiamond");
+	}
+	@Override
+	public void onUpdate(ItemStack p_77663_1_, World p_77663_2_,
+			Entity p_77663_3_, int p_77663_4_, boolean p_77663_5_) {
+		// TODO Auto-generated method stub
+		super.onUpdate(p_77663_1_, p_77663_2_, p_77663_3_, p_77663_4_, p_77663_5_);
+		int stackSize = p_77663_1_.stackSize;
+		if(p_77663_1_==new ItemStack(Infinite_Diamond.item6,stackSize)) {
+			p_77663_1_.setItemDamage(p_77663_1_.getItemDamage()-1);
+			if(p_77663_1_.getItemDamage()==0) {
+				p_77663_1_ = new ItemStack(Infinite_Diamond.item7, stackSize);
+			} else if(p_77663_1_.isItemDamaged()==true) {
+				p_77663_1_.getItem().showDurabilityBar(p_77663_1_);
+			}
+		}
+	}
+	@Override
+	public boolean isDamageable() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+	@Override
+	public boolean onItemUse(ItemStack p_77648_1_, EntityPlayer p_77648_2_,
+			World p_77648_3_, int p_77648_4_, int p_77648_5_, int p_77648_6_,
+			int p_77648_7_, float p_77648_8_, float p_77648_9_,
+			float p_77648_10_) {
+		// TODO Auto-generated method stub
+		super.onItemUse(p_77648_1_, p_77648_2_, p_77648_3_, p_77648_4_, p_77648_5_,
+						p_77648_6_, p_77648_7_, p_77648_8_, p_77648_9_, p_77648_10_);
+		p_77648_1_.setItemDamage(p_77648_1_.getItemDamage()-100);
+		return true;
 	}
 }
